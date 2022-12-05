@@ -1,0 +1,44 @@
+body{
+    background-color: #e283f1;
+}
+
+.Calculadora {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    color: #3e0433;
+}
+
+#botaoCalcular{
+    color: rgb(244, 211, 250);
+    background:  #75259b;
+    height: 25px;
+    width: 120px;
+    font-size: small;
+}
+
+#exibeCalculos{
+    display: flex;
+    justify-content:flex-start;
+    color: #3e0433;
+    font-size: medium;
+}
+
+input{
+    width: 90px;
+    height: 20px;
+}
+
+::placeholder{
+    color: #600566;
+}
+
+input:placeholder-shown {
+    border: 2px dotted rgb(118, 27, 170);
+}
